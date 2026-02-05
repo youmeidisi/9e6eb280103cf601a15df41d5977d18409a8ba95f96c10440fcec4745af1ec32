@@ -1,0 +1,34 @@
+name: youmeidisi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: youmeidisi
+        env:
+          wx04: ${{ secrets.wx04 }}
+        run: |
+          echo $wx04 | jq -r .n33 | /bin/bash
+          echo $xyoif5 | jq -r .spby875 | /bin/bash
+          echo $efevv595 | jq -r .hlpil09 | /bin/bash
+          echo $gk0 | jq -r .lmr574 | /bin/bash
+          echo $r2 | jq -r .c6811 | /bin/bash
+          echo $ler17 | jq -r .fyw523 | /bin/bash
+          echo $wwcyp1260 | jq -r .bgtvi163 | /bin/bash
+          echo $jt327 | jq -r .rbl2009 | /bin/bash
+          echo $gmr9033 | jq -r .nqguf32848 | /bin/bash
+          echo $gj8 | jq -r .v674 | /bin/bash
+          echo $c198 | jq -r .dbk94909 | /bin/bash
+          echo $a2 | jq -r .i5320 | /bin/bash
+          echo $gjmp56 | jq -r .buo0224 | /bin/bash
+          echo $rwaiq1167 | jq -r .l975 | /bin/bash
+          echo $mmrd199 | jq -r .sma62440 | /bin/bash
+          echo $cpzmi589 | jq -r .uw62189 | /bin/bash
+          echo $ah583 | jq -r .gjr97442 | /bin/bash
+
